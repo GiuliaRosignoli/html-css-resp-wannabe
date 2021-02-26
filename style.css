@@ -117,13 +117,17 @@ img {
   #why .row>.second,
   #why .row>.third {
      width: 100%;
-     margin-top: 80px;
+     margin-top: 30px;
 }
 
 img {
   height: auto;
   width: 90px;
  
+}
+
+#why .row img {
+  padding: 10px;
 }
 
 }
