@@ -71,3 +71,33 @@ img {
 .clear {
   clear: both;
 }
+
+
+/* ___________________________________ */
+     
+             /* RESPONSIVE - Mobile - width smaller than 420px */
+      
+
+@media screen and (max-width: 419px) {
+  .row {
+    max-width: 100%;
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-align: left;
+  }
+ 
+  .row > .left,
+  .row > .central,
+  .row > .right {
+    display: block;
+    float: none;
+    max-width: 100%;
+  }
+
+
+}
