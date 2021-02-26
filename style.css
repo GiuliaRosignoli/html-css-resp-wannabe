@@ -73,9 +73,10 @@ img {
 }
 
 
+
 /* ___________________________________ */
      
-             /* RESPONSIVE - Mobile - width smaller than 420px */
+    /* RESPONSIVE - Mobile - width smaller than 420px */
       
 
 @media screen and (max-width: 419px) {
@@ -137,7 +138,6 @@ img {
 }
 
 }
-
 
 
 /* BONUS - Tablet - range 768px-1023px*/
