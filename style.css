@@ -80,9 +80,11 @@ img {
 
 @media screen and (max-width: 419px) {
   body {
-    text-align: center;
-    margin: 10px
+    margin: 10px;
+    text-align: center; 
   }
+
+      /* ROW SECTION */
 
   .row {
     width: 100%;
@@ -102,6 +104,8 @@ img {
     padding-top: 20px;
   }
 
+ /* STEPS SECTION */
+
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
@@ -112,6 +116,8 @@ img {
   #steps img {
     padding-top: 15px;
   }
+
+      /* WHY SECTION */
 
   #why .row>.first,
   #why .row>.second,
@@ -130,4 +136,61 @@ img {
   padding: 10px;
 }
 
+}
+
+
+
+/* BONUS - Tablet - range 768px-1023px*/
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+  body {   
+    margin: 10px;
+    text-align: center;
+  }
+ 
+   /* ROW SECTION */
+
+  .row {
+    width: 100%;
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    margin-top: 20px;
+    padding-bottom: 25px;
+  } 
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  width: calc(100% / 2);
+  float: left;
+}
+
+  /* STEPS SECTION */
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: left;
+    width: 33%;
+  }
+
+
+  /* WHY SECTION */
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+     width: 100%;
+     margin-top: 40px;
+     padding-bottom: 0;
+    
+}
+
+ img {
+   height: 190px;
+} 
 }
